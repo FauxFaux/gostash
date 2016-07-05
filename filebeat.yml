@@ -1,0 +1,8 @@
+filebeat:
+    prospectors:
+        - paths:
+            - /var/log/*.log
+output:
+    logstash:
+        hosts: ["localhost:27044"]
+
